@@ -1,0 +1,30 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  
+  background: url(header.jpg) no-repeat center center fixed; 
+  background-size: cover;
+ 
+}
+.mb1{
+  padding: 10px 8px;
+  border-radius: 0px;
+  text-transform: uppercase;
+}
+.mb1:hover{
+  background: linear-gradient(120deg,#f8f9fa50,black);
+  color: rgb(125, 128, 129);
+}
+.buffer{
+  height: 430px;
+}
+
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 55px;
+  opacity: 1;  
+}
